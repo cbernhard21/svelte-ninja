@@ -12,8 +12,9 @@
             }
         }
         return{
-            status: res.status, 
-            error: new Error('Could not fetch the guide')
+            status: 301, 
+            //error: new Error('Could not fetch the guide')
+            redirect: '/guides'
         }
     }
 </script>

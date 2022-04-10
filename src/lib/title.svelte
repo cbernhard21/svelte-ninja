@@ -10,9 +10,7 @@
 
 <style>
     .title{
-        width: 100%;
         display: flex;
-        justify-content: center;
     }
 
     .title img {
